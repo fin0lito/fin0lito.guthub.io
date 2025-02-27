@@ -1,12 +1,37 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi primera pagina</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Daniel Finol</h1>
-    <h2>Futuro programador</h2>
-    <p>Estudiante de programacion en el talento tech oriente</p>
+    <header>
+        <h1>Sean bienvenidos a mi pagina web</h1>
+        <nav>
+            <a href="#seccion1">Ir a Sección 1</a> |
+            <a href="https://github.com" target="_blank">Visitar GitHub</a>
+        </nav>
+    </header>
+    <main>
+        <p>Esta es una página web de ejemplo que refleja mi pasión por la programación.</p>
+        <button id="miBoton">Haz clic aquí</button>
+        <section id="seccion1">
+            <h2>Acerca de mi</h2>
+            <p>Hola, soy Daniel un joven apasionado por la tecnologia, estoy aprendiendo a desarrollar software y programacion en javascript y pyton me encantaria aprender a crear soluciones innovadoras y aprender nuevas tecnologias</p>
+        </section>
+    </main>
+
+    <!-- Nueva sección con imagen y descripción personalizada -->
+    <section class="imagen-descripcion">
+        <img src="https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="imagen-descripcion">
+        <div class="descripcion">
+            <h2>Mi Pasión por la Programación</h2>
+            <p>La programación es mi pasión. Me encanta resolver problemas, crear soluciones innovadoras y aprender nuevas tecnologías. Cada línea de código es una oportunidad para construir algo increíble.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
